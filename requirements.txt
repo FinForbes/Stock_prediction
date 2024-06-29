@@ -1,0 +1,6 @@
+mega.py == 1.0.8
+yfinance == 0.2.40
+hugging-face == 0.23.4
+tensorflow == 2.16.1
+pandas
+numpy
