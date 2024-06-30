@@ -1,5 +1,5 @@
 from huggingface_hub import login, create_repo, HfApi
-from Stock_Models_Product_1.Model.utils.huggingface_upload_models import upload_model
+from Product_1.Model.utils.huggingface_upload_models import upload_model
 
 if __name__ == "__main__":
     # Your Hugging Face API token
@@ -21,7 +21,7 @@ if __name__ == "__main__":
         create_repo(repo_id, token=hf_token, private=False)
 
     # Define the file path
-    file_path = "../../Cloud/models"
+    file_path = "../Cloud/models"
 
     upload_model(file_path, repo_id, hf_token)
     #

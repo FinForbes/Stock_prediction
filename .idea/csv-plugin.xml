@@ -3,14 +3,7 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\Cloud\Scripts_name\filtered_file.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\Test_functions\data\HDFCBANK.csv">
+        <entry key="\Product_1\Test_functions\data\HDFCBANK.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
